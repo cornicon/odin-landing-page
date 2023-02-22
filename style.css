@@ -5,14 +5,14 @@ body {
 }
 
 body > * {
-    justify-content: space-around;
+    display: flex;
+    padding: 10px 15%;
 }
 
 .header {
-    display: flex;
+    justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding: 10px;
 }
 
 .header-logo {
@@ -23,4 +23,33 @@ body > * {
 .header-links > a {
     text-decoration: none;
     color: #E5E7EB;
+    border-color: none;
+}
+
+.intro {
+    background-color: #1F2937;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+button, .action {
+    background-color: #3882F6;
+}
+
+button {
+    padding: 8px 24px;
+    color: #F9FAF8;
+    border-radius: 10%;
+    border: 0px;
 }
