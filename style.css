@@ -40,12 +40,17 @@ body > * {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
 }
 
 .main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+}
+
+.main-text, .secondary-text {
+    margin: 0px;
 }
 
 .secondary-text, .header-links a {
