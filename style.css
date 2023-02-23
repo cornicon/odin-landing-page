@@ -134,9 +134,23 @@ button {
     text-align: end;
 }
 
+.action {
+    padding-top: 80px;
+}
 .action-banner {
     display: flex;
     width: 100%;
     border-radius: 12px;
     padding: 3%;
+}
+
+.action-header {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0px;
+}
+
+.action-text {
+    color: #E5E7EB;
 }
