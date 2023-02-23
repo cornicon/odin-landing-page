@@ -115,3 +115,12 @@ button {
     width: 80%;
     text-align: center;
 }
+
+.quote {
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+}
